@@ -26,6 +26,7 @@
             pkgs.gtk4
             pkgs.libadwaita
             pkgs.glib-networking
+            pkgs.p11-kit # Trying stuff until HTTPS works
           ];
         };
 

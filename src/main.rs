@@ -68,7 +68,7 @@ impl SimpleComponent for AppModel {
                         set_vexpand: true,
                         set_halign: gtk::Align::Fill,
                         set_hexpand: true,
-                        load_uri: "http://127.0.0.1:3000/"
+                        load_uri: "https://google.com"//"http://127.0.0.1:3000/"
                     }
                 }
             }
