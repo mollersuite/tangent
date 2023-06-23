@@ -27,6 +27,8 @@ impl SimpleComponent for AppModel {
             set_title: Some("Tangent"),
             set_default_width: 300,
             set_default_height: 100,
+            add_css_class: if cfg!(debug_assertions) { "devel" } else {""},
+
             adw::Leaflet {
                 gtk::Box {
                     set_orientation: gtk::Orientation::Horizontal,
@@ -34,13 +36,20 @@ impl SimpleComponent for AppModel {
                         set_valign: gtk::Align::Start,
                         set_vexpand: true,
                         set_orientation: gtk::Orientation::Vertical,
-                        inline_css: "max-width: 200px",
-                        gtk::Button {
-                            adw::ButtonContent {
-                                set_label: "About",
-                                set_icon_name: "help-about-symbolic"
+                        gtk::Box {
+                            set_valign: gtk::Align::Start,
+                            set_vexpand: false,
+                            set_orientation: gtk::Orientation::Horizontal,
+                            add_css_class: "toolbar",
+                            gtk::WindowControls {
+                                set_side: gtk::PackType::Start,
+                                set_decoration_layout: Some("close")
                             },
-                            connect_clicked => AppMsg::About,
+                            gtk::Button {
+                                set_icon_name: "help-about-symbolic",
+                                set_tooltip_text: Some("About Tangent"),
+                                connect_clicked => AppMsg::About
+                            },
                         },
                         adw::EntryRow {
                             set_title: "URL"
@@ -51,12 +60,13 @@ impl SimpleComponent for AppModel {
                             set_orientation: gtk::Orientation::Vertical,
                             set_spacing: 10,
                             set_margin_all: 10,
+                            add_css_class: "navigation-sidebar",
                             gtk::Button {
                                 set_label: "Introducing Tangent - Etcetera",
                             },
                             gtk::Button {
                                 inline_css: "margin-left: 1ch;",
-                                set_label: "The WWWorst App Store - GNU Project - Free Software Foundation",
+                                set_label: "The WWWorst App Store",
                                 add_css_class: "link-button"
                             }
                         }
@@ -68,7 +78,7 @@ impl SimpleComponent for AppModel {
                         set_vexpand: true,
                         set_halign: gtk::Align::Fill,
                         set_hexpand: true,
-                        load_uri: "https://google.com"//"http://127.0.0.1:3000/"
+                        load_uri: "https://en.wikipedia.org"//"http://127.0.0.1:3000/"
                     }
                 }
             }
