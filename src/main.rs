@@ -81,7 +81,7 @@ impl SimpleComponent for AppModel {
                         set_settings: &({
                             let settings = webkit6::Settings::new();
                             settings.set_enable_developer_extras(true);
-                            \settings
+                            settings
                         }),
                         load_uri: "https://en.wikipedia.org"//"http://127.0.0.1:3000/"
                     }
