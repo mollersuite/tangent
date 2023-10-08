@@ -13,3 +13,4 @@ webkit6 = "0.1.0"
 relm4 = {version = "0.6.0", features = ["libadwaita"]}
 relm4-components = "0.6.0"
 adw = { package = "libadwaita", version = "0.4", features = ["v1_3", "gtk_v4_10"] }
+tracker = "0.2.1"
