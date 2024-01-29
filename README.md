@@ -1,15 +1,7 @@
-<div align="center">
-  <h1>Tangent from Etcetera</h1>
-  
-  Go on tangents.
+<h1 align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/logo-black.svg">
+  <img alt="" src="assets/logo-black.svg" width="25.13252" height="24.67968">
+</picture><br>Tangent</h1>
 
-  [screenshot here]
-  
-  `nix run github:mollersuite/tangent`
-</div>
-
-<div align="right">
-<a href="https://jack.cab">
-  —Jack, founder of Etcetera
-</a>
-</div>
+Go on tangents. A _user_ agent, built for you, not venture capital.
