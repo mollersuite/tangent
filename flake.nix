@@ -8,7 +8,7 @@
 
   outputs = { nixpkgs, self, troll }:
     let
-      appid = "surf.Tangent.Tangent";
+      appid = "surf.tangent.Tangent";
       description = "Go on tangents.";
     in
     {

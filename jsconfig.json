@@ -5,11 +5,11 @@
 		// So GNOME must use Firefox 102 ESR which is from 2022
 		// https://discourse.gnome.org/t/gnome-43-to-depend-on-spidermonkey-102/10658
 		"target": "ESNext",
-		"module": "NodeNext", // Import attributes are only available when targeting ESNext
+		"module": "ESNext", // Import attributes are only available when targeting ESNext
 		"lib": ["ESNext"],
 
 		"checkJs": true,
-		"moduleResolution": "nodenext",
+		"moduleResolution": "bundler",
 		"resolveJsonModule": true,
 		"typeRoots": ["./node_modules/@girs"]
 	}

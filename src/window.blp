@@ -1,0 +1,33 @@
+using Gtk 4.0;
+using Adw 1;
+
+Adw.Window window {
+  default-width: 800;
+  default-height: 600;
+  title: "Methodsave";
+  Box {
+    orientation: vertical;
+    Adw.HeaderBar {
+      styles ["flat"]
+      [title]
+      Adw.Clamp {
+        tightening-threshold: 400;
+        hexpand: true;
+        Gtk.SearchEntry search {
+          placeholder-text: "Wave smiley.";
+        }
+      }
+
+      [end]
+      Gtk.Button {
+        icon-name: "about-symbolic";
+        clicked => $about();
+      }
+    }
+    Adw.StatusPage {
+      icon-name: "uk.cetera.Methodsave";
+      title: "Method is coming.";
+      vexpand: true;
+    }
+  }
+}

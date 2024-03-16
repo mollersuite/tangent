@@ -22,7 +22,7 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
-  <requires><internet>always</internet></require>
+  <requires><internet>always</internet></requires>
 <developer_name>Etcetera Development</developer_name>
   <description>
     <p>
