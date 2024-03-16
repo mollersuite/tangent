@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>surf.tangent.Tangent</id>
+  
+  <name>Tangent</name>
+  <summary>Go on tangents</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  
+	<categories>
+		<category>GNOME</category>
+	</categories>
+
+	<url type="homepage">https://tangent.surf</url>
+	<url type="bugtracker">https://github.com/mollersuite/tangent</url>
+	<url type="contact">https://cetera.uk/discord</url>
+	<url type="vcs-browser">https://github.com/mollersuite/tangent</url>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <requires><internet>always</internet></require>
+<developer_name>Etcetera Development</developer_name>
+  <description>
+    <p>
+      The user agent. The only browser with Dynamic Tabs. Time to go on tangents.
+	</p>
+	</description>
+
+	<launchable type="desktop-id">surf.tangent.Tangent.desktop</launchable>
+</component>
