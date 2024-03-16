@@ -4,30 +4,59 @@ using Adw 1;
 Adw.Window window {
   default-width: 800;
   default-height: 600;
-  title: "Methodsave";
-  Box {
-    orientation: vertical;
-    Adw.HeaderBar {
-      styles ["flat"]
-      [title]
-      Adw.Clamp {
-        tightening-threshold: 400;
-        hexpand: true;
-        Gtk.SearchEntry search {
-          placeholder-text: "Wave smiley.";
-        }
+  title: "Tangent";
+
+  Adw.OverlaySplitView {
+    sidebar-position: end;
+
+    [sidebar]
+    Box {
+      orientation: vertical;
+      WindowHandle {
+        Box {
+          styles ["toolbar"]
+          orientation: horizontal;
+          MenuButton button_menu {
+            menu-model: menu_app;
+            icon-name: "open-menu-symbolic";
+            primary: true;
+            halign: start;
+          }
+          // Button {
+          //   icon-name: "about-symbolic";
+          //   clicked => $about();
+          //   halign: end;
+          // }
+          WindowControls {
+            decoration-layout: "close";
+            hexpand: true;
+            halign: end;
+          }
+      }
       }
 
-      [end]
-      Gtk.Button {
-        icon-name: "about-symbolic";
-        clicked => $about();
+      Entry urlbar {
+ input-purpose: url;
+        hexpand: true;
+      }
+      Label {
+        label: "hi! :3";
       }
     }
-    Adw.StatusPage {
-      icon-name: "uk.cetera.Methodsave";
-      title: "Method is coming.";
+
+    [content]
+    Box content {
       vexpand: true;
+    }
+  }
+}
+
+
+menu menu_app {
+  section {
+    item {
+      label: _("About");
+      action: "app.about";
     }
   }
 }

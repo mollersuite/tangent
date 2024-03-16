@@ -32,6 +32,7 @@
               pkgs.libadwaita
               pkgs.libsoup_3
               pkgs.gobject-introspection
+              pkgs.webkitgtk_6_0
               pkgs.glib-networking
               pkgs.p11-kit
               pkgs.gst_all_1.gst-libav
