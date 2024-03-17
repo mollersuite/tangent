@@ -25,13 +25,20 @@
             pname = "tangent";
             version = "0.0.1";
             src = self;
-            nativeBuildInputs = [ pkgs.gjs pkgs.gobject-introspection pkgs.wrapGAppsHook pkgs.blueprint-compiler ];
+            nativeBuildInputs = [
+              pkgs.gjs
+              pkgs.wrapGAppsHook
+              pkgs.blueprint-compiler
+              pkgs.meson
+              pkgs.ninja
+              pkgs.desktop-file-utils
+            ];
+            enableParallelBuilding = true;
             buildInputs = [
               pkgs.gjs
               pkgs.gtk4
               pkgs.libadwaita
               pkgs.libsoup_3
-              pkgs.gobject-introspection
               pkgs.webkitgtk_6_0
               pkgs.glib-networking
               pkgs.p11-kit
@@ -43,21 +50,12 @@
               pkgs.gst_all_1.gstreamer
             ];
             dontPatchShebangs = true;
-            buildPhase = ''
-              ln --symbolic ${troll} ./src/troll
-              mkdir $out
-              export version="${finalAttrs.version}"
-              export comments="${description}"
-              export homepage="${finalAttrs.meta.homepage}"
-              substituteAllInPlace ./src/main.js
-              gjs --module ${troll}/gjspack/bin/gjspack ${lib.cli.toGNUCommandLineShell {} {
-                inherit appid;
-                import-map = "./src/import_map.json";
-                resource-root="./src";
-              }} ./src/main.js $out/bin
-              sed --in-place "1s/.*/#!${lib.strings.escape ["/"] (lib.getExe pkgs.gjs)} --module/" $out/bin/${appid}
-              cp --recursive ./share $out/share
+            inherit troll;
+            postPatch = ''
+              cp --recursive $troll ./src/troll
+              substituteInPlace src/bin.js src/troll/gjspack/bin/gjspack --replace-fail "#!/usr/bin/env -S gjs -m" "#!${pkgs.gjs}/bin/gjs --module"
             '';
+            postInstall = ''chmod +x $out/bin/${appid}'';
             meta = {
               mainProgram = appid;
               description = description;
@@ -66,21 +64,6 @@
               longDescription = builtins.readFile ./README.md;
               changelog = "https://github.com/mollersuite/tangent/releases/tag/v${finalAttrs.version}";
             };
-            desktopItem = pkgs.makeDesktopItem {
-              name = appid; # Filename, not display name
-              icon = appid;
-              exec = "${appid} %u";
-              desktopName = "Tangent";
-              genericName = "Web Browser";
-              categories = [ "GNOME" ];
-              keywords = [ "Etcetera" ];
-              comment = description;
-              # TODO
-              dbusActivatable = true;
-              startupNotify = true;
-            };
-
-            postInstall = "cp -r $desktopItem/* $out";
           });
         };
     };
