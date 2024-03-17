@@ -4,7 +4,7 @@
   
   <name>Tangent</name>
   <summary>Go on tangents</summary>
-  
+  <translation type="gettext">surf.tangent.Tangent</translation>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   
