@@ -131,4 +131,9 @@ const Tangent = GObject.registerClass(
 	}
 )
 
-new Tangent().run([programInvocationName].concat(programArgs))
+
+export function main(argv = []) {
+	const application = new Tangent()
+	return application.runAsync(argv)
+}
+// new Tangent().run([programInvocationName].concat(programArgs))
