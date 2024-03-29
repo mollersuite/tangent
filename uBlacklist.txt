@@ -630,3 +630,7 @@
 *://runningescapades.com/*
 *://www.nothingbutdope.com/*
 *://prog.world/*
+*://www.toolify.ai/*
+*://www.youlistener.com/*
+*://www.33rdsquare.com/*
+*://oldtimemusic.com/*
