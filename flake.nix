@@ -27,7 +27,7 @@
             src = self;
             nativeBuildInputs = [
               pkgs.gjs
-              pkgs.wrapGAppsHook
+              pkgs.wrapGAppsHook4
               pkgs.blueprint-compiler
               pkgs.meson
               pkgs.ninja
