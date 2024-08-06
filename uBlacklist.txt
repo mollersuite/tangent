@@ -1,31 +1,53 @@
-*://www.cyberciti.biz/*
 *://www.colorway.ai/*
 *://militarytimechart.com/*
 *://www.militarytime.us/*
+
+# Official wiki is at https://scp-wiki.wikidot.com/
 *://scp.fandom.com/*
+
+# Really bad JavaScript resources
 *://www.w3schools.com/*
 *://www.javascripttutorial.net/*
 *://www.geeksforgeeks.org/*
 *://www.programiz.com/*
 *://www.techonthenet.com/*
-*://www.digitalocean.com/community/*
 *://masteringjs.io/*
 *://www.runoob.com/*
-*://www.fooish.com/*
 *://www.javatpoint.com/*
+*://www.tutorialspoint.com/*
+*://www.fooish.com/* # Probably useful but not in my language
+
+# MDN alternate languages
+*://developer.mozilla.org/zh-CN/*
+*://developer.mozilla.org/ko/*
+*://developer.mozilla.org/pt-BR/*
+
+# Never helpful spam blog posts
+*://www.digitalocean.com/community/*
 *://blog.udemy.com/*
 *://careerkarma.com/blog/*
-*://builtin.com/*
-*://www.tutorialspoint.com/*
 *://blog.hubspot.com/*
-*://www.codecademy.com/*
-*://dcodesnippet.com/*
-*://davy.ai/*
-*://www.studocu.com/*
-*://itsfoss.com/*
-*://www.msn.com/*
+*://blog.logrocket.com/*
+*://builtin.com/articles/*
+*://www.codecademy.com/article/*
+*://www.codecademy.com/resources/docs/*
+*://articles.entireweb.com/*
+*://dcodesnippet.com/* # Articles have no prefix
+
+*://www.studocu.com/*/document/* # User submitted shit
+*://davy.ai/* # Stack Overflow question, AI generated answers
+*://www.msn.com/* # MSN/Microsoft Start syndicates articles, doesn't publish
+
+# TODO: revisit
 *://nftnow.com/*
 *://nftnow.substack.com/*
+*://itsfoss.com/*
+*://www.cyberciti.biz/* # NixCraft
+
+# Wondershare blog posts will be like "Top 10 Linux Video Editors" and will only say "You need a Windows video editor, you should use..."
+*://*.wondershare.com/*
+
+# TODO: categorize these
 *://statcarewalkin.com/*
 *://medicalhealthauthority.com/*
 *://www.emergentmind.com/*
@@ -34,7 +56,6 @@
 *://www.lifewire.com/*
 *://www.linuxpit.com/*
 *://www.linuxnest.com/*
-*://filmora.wondershare.com/*
 *://www.debugpoint.com/*
 *://www.flexclip.com/*
 *://fixthephoto.com/*
@@ -51,7 +72,6 @@
 *://discovervibe.blog/*
 *://codeforgeek.com/*
 *://acemovi.tuneskit.com/*
-*://*.wondershare.com/*
 *://www.9to5software.com/*
 *://www.redswitches.com/*
 *://net2.com/*
@@ -92,6 +112,315 @@
 *://quickcleanchicago.com/*
 *://azthing.net/*
 *://contpark.com/*
+
+# Search Partners Exclusion List: https://docs.google.com/spreadsheets/d/1puymaStovHq7jBTJH15M6jww0VPy27FRvslaHW7DVzs/edit
+*://coolsearches.com/* # AdsSquared
+*://www.100searchengines.com/* # Advanced Search Technologies
+*://www.alltheinternet.com/* # Advanced Search Technologies
+*://www.searchalot.com/* # Advanced Search Technologies
+*://alohafind.com/* # Aloha
+*://www.247.vacations/* # AOL
+*://www.autos.parts/* # AOL
+*://www.autos24-7.com/* # AOL
+*://www.baby.guide/* # AOL
+*://www.binoz.com/* # AOL
+*://www.boxely.com/* # AOL
+*://www.chowist.com/* # AOL
+*://www.citypedia.com/* # AOL
+*://www.couponbear.com/* # AOL
+*://www.diylife.com/* # AOL
+*://www.ehealth247.com/* # AOL
+*://www.enow.com/* # AOL
+*://www.fashion.life/* # AOL
+*://www.find.furniture/* # AOL
+*://www.foodbegood.com/* # AOL
+*://www.furniture.deals/* # AOL
+*://www.gamer.site/* # AOL
+*://www.glamorbank.com/* # AOL
+*://www.going.com/* # AOL
+*://www.greendaily.com/* # AOL
+*://www.health.zone/* # AOL
+*://www.helping.com/* # AOL
+*://www.homesessive.com/* # AOL
+*://www.housingwatch.com/* # AOL
+*://www.instore.com/* # AOL
+*://www.insurance24-7.com/* # AOL
+*://www.intoautos.com/* # AOL
+*://www.job-sift.com/* # AOL
+*://www.know-legal.com/* # AOL
+*://www.kol.com/* # AOL
+*://www.leadlocal.com/* # AOL
+*://www.learn-247.com/* # AOL
+*://www.luxist.com/* # AOL
+*://www.netdeals.com/* # AOL
+*://www.netfind.com/* # AOL
+*://www.pets.world/* # AOL
+*://www.see-it.live/* # AOL
+*://www.shopfone.com/* # AOL
+*://www.sport-king.com/* # AOL
+*://www.tech247.co/* # AOL
+*://www.thegifts.co/* # AOL
+*://www.think24-7.com/* # AOL
+*://www.viral.site/* # AOL 
+*://www.walletpop.com/* # AOL
+*://www.wavezie.com/* # AOL
+*://www.when.com/* # AOL
+*://www.wimzi.com/* # AOL
+*://www.wow.com/* # AOL
+*://www.ygm.com/* # AOL
+*://www.allsearchsite.com/* # Ask Media Group
+*://www.allshoppinghub.com/* # Ask Media Group
+*://www.allinfosearch.com/* # Ask Media Group
+*://top.allresultsweb.com/* # Ask Media Group
+*://www.answerroot.com/* # Ask Media Group
+*://www.candofinance.com/* # Ask Media Group
+*://www.chaseafterinfo.com/* # Ask Media Group
+*://www.digupinfo.com/* # Ask Media Group
+*://www.directhit.com/* # Ask Media Group
+*://www.etour.com/* # Ask Media Group
+*://www.fastquicksearch.com/* # Ask Media Group
+*://www.findinfoonline.com/* # Ask Media Group
+*://www.findinfoquickly.com/* # Ask Media Group
+*://www.findsmartresults.com/* # Ask Media Group
+*://www.finecomb.com/* # Ask Media Group
+*://www.getsearchinfo.com/* # Ask Media Group
+*://www.holidaygiftssearch.com/* # Ask Media Group
+*://www.informationvine.com/* # Ask Media Group
+*://www.internetcorkboard.com/* # Ask Media Group
+*://kensaq.com/* # Ask Media Group
+*://www.mysearchexperts.com/* # Ask Media Group
+*://www.mywebsearch.co/* # Ask Media Group
+*://hp.myway.com/myway/index.html* # Ask Media Group
+*://www.ohdeal.com/* # Ask Media Group
+*://www.productopia.com/* # Ask Media Group
+*://www.pronto.com/* # Ask Media Group
+*://www.questionsanswered.net/* # Ask Media Group
+*://www.quickholidayshopping.com/* # Ask Media Group
+*://www.quicklyseek.com/* # Ask Media Group
+*://www.reference.com/* # Ask Media Group
+*://www.resultsdistributor.com/* # Ask Media Group
+*://www.searchandshopping.org/* # Ask Media Group
+*://www.searchresultsdelivery.com/* # Ask Media Group
+*://www.searchresultsfast.com/* # Ask Media Group
+*://www.searchstartnow.com/* # Ask Media Group
+*://top.searchinfonow.com/* # Ask Media Group
+*://www.shopping.net/* # Ask Media Group
+*://search.sidewalk.com/* # Ask Media Group
+*://www.smartanswersonline.com/* # Ask Media Group
+*://www.smartshoppingresults.com/* # Ask Media Group
+*://www.smarter.com/* # Ask Media Group
+*://www.speedysearchresults.com/* # Ask Media Group
+*://www.stumbleuponresults.com/* # Ask Media Group
+*://www.superdealsearch.com/* # Ask Media Group
+*://www.teoma.us/* # Ask Media Group
+*://www.theanswerhub.com/* # Ask Media Group
+*://top.theresultsengine.com/* # Ask Media Group
+*://www.topwebanswers.com/* # Ask Media Group
+*://www.topsearch.co/* # Ask Media Group
+*://www.travelsearchexpert.com/* # Ask Media Group
+*://www.websearch101.com/* # Ask Media Group
+*://isearch.babylon.com/* # Babylon
+*://search-us.com/* # BMP Marketing
+*://all.properties/* # BMP Marketing
+*://appliances.land/* # BMP Marketing
+*://autos-411.com/* # BMP Marketing
+*://furniture.fit/* # BMP Marketing
+*://quisitio.com/* # BMP Marketing
+*://search-us.com/* # BMP Marketing
+*://serch.it/* # BMP Marketing
+*://wowsear.ch/* # BMP Marketing
+*://zipcode-weather.com/* # BMP Marketing
+*://www.answergal.com/* # CBS Interactive
+*://www.answersite.com/* # CBS Interactive
+*://bargain-pda.com/* # CBS Interactive
+*://www.buydirect.com/* # CBS Interactive
+*://www.buyernet.com/* # CBS Interactive
+*://www.dailydozen.com/* # CBS Interactive
+*://www.dealsnow.com/* # CBS Interactive
+*://www.eshopdaily.com/* # CBS Interactive
+*://expertsnow.com/* # CBS Interactive
+*://www.ezbuying.com/* # CBS Interactive
+*://ezsearcher.com/* # CBS Interactive
+*://familybuyer.com/* # CBS Interactive
+*://www.findarticles.com/* # CBS Interactive
+*://www.helpwire.com/* # CBS Interactive
+*://www.internetbuyer.com/* # CBS Interactive
+*://www.internetlist.com/* # CBS Interactive
+*://www.javabuyer.com/* # CBS Interactive
+*://www.mysimon.com/* # CBS Interactive
+*://www.savvysearch.com/* # CBS Interactive
+*://www.search.com/* # CBS Interactive
+*://www.sohobuyer.com/* # CBS Interactive
+*://www.store.com/* # CBS Interactive
+*://www.thewinlist.com/* # CBS Interactive
+*://www.theepulse.com/* # CBS Interactive
+*://www.theweb.com/* # CBS Interactive
+*://www.videoroom.com/* # CBS Interactive
+*://searchguide.level3.com/* # CenturyLink
+*://www.searchthatup.com/* # Codefuel 
+*://www.crypsearch.com/* # CodePerform
+*://www.contenko.com/* # Contenko
+*://www.discover-results.com/* # Contenko
+*://www.rapidrelevant.com/* # Contenko
+*://www.search-topresults.com/* # Contenko
+*://www.web-explore.com/* # Digifox
+*://mybestsearches.com/* # EdgeROI
+*://www.alhea.net/* # Ego Cognito
+*://www.bestresultstoday.com/* # Ego Cognito
+*://www.browsinginfo.com/* # Elevated Media
+*://www.helpful.tips/* # Elevated Media
+*://www.help.website/* # Elevated Media
+*://updatedanswers.com/* # Elevated Media
+*://www.askfalcon.com/* # Futuristic Innovative Systems
+*://www.thesearchmonster.com/* # Futuristic Innovative Systems
+*://www.hidemyhistory.co/* # Hide My History
+*://www.myprivatesearch.com/* # Intango
+*://relatedsearches.net/* # Synergy Media Ventures
+*://ranksearchesnow.com/* # Momentum Marketing Team
+*://topsearchernow.com/* # Momentum Marketing Team
+*://mynewsearch.net/* # My New Search
+*://bestsearches.net/* # Nimble
+*://commonsearches.net/* # Nimble
+*://www.csearches.net/* # Nimble
+*://www.favoritesearches.com/* # Nimble
+*://frequentsearches.com/* # Nimble
+*://gosearches.net/* # Nimble
+*://www.hysearches.com/* # Nimble
+*://www.iresults.com/* # Nimble
+*://mysearches.net/* # Nimble
+*://popularsearches.net/* # Nimble
+*://puretopics.com/* # Nimble
+*://www.qsearch.io/* # Nimble
+*://www.rsearches.net/* # Nimble
+*://www.searchcommons.com/* # Nimble
+*://searchfavorites.net/* # Nimble
+*://searchlistnow.com/* # Nimble
+*://searchlists.net/* # Nimble
+*://searchthese.net/* # Nimble
+*://searchtopics.net/* # Nimble
+*://www.seekify.net/* # Nimble
+*://startsearch.net/* # Nimble
+*://www.truesearches.net/* # Nimble
+*://yfind.io/* # Nimble
+*://ysearches.com/* # Nimble
+*://noblesearch.net/* # Noble Search
+*://blackfridaysearch.co/* # Psquared
+*://cercaora.co/* # Psquared
+*://creditapprove123.com/* # Psquared
+*://cybermondaydeal.co/* # Psquared
+*://cercaoraoggi.com/* # Psquared
+*://everyrebate.online/* # Psquared
+*://gadgetfrenzy.online/* # Psquared
+*://healthinfodirect.com/* # Psquared
+*://healthfrenzy.online/* # Psquared
+*://jetztsuchenheute.com/* # Psquared
+*://laricerca.co/* # Psquared
+*://saveonanything.online/* # Psquared
+*://saveonwayfair.online/* # Psquared
+*://savesearchdeals.com/* # Psquared
+*://searchfortoday.com/* # Psquared
+*://searchanything.info/* # Psquared
+*://searchanything.online/* # Psquared
+*://searchbetter.co/* # Psquared
+*://searcheverything.info/* # Psquared
+*://searchandstuff.com/* # Psquared
+*://searchthings.co/* # Psquared
+*://searchthings.info/* # Psquared
+*://searchtodaynow.com/* # Psquared
+*://shopanything.online/* # Psquared
+*://shoppingeverything.online/* # Psquared
+*://theblackfridaydeal.com/* # Psquared
+*://thefrenzy.online/* # Psquared
+*://thesearchtoday.com/* # Psquared
+*://thingsearches.com/* # Psquared
+*://travelfrenzy.online/* # Psquared
+*://yoursearchtoday.com/* # Psquared
+*://www.myprivacyswitch.com/* # Plasko Interactive
+*://bestdailyarticle.com/* # Rise Code
+*://isearch.start.fyi/* # Rise Code
+*://www.keywordssearching.com/* # Rise Code
+*://searcheshut.com/* # Rise Code
+*://search-valley.com/* # Rise Code
+*://srchtul.com/* # Rise Code
+*://srczule.com/* # Rise Code
+*://topinfoarticles.com/* # Rise Code
+*://trendysearches.com/* # Rise Code
+*://search.zonealarm.com/* # Rise Code
+*://monstercrawler.com/* # RMG Ltd.
+*://www.searchlock.com/* # SearchLock
+*://srchgo.com/* # Tierra Hosting
+*://search.tris.com/* # Tris
+*://gosearchresults.com/* # Visicom Media
+*://us.askpace.com/* # Visymo
+*://us.blendedsearch.com/* # Visymo
+*://us.favosearch.com/* # Visymo
+*://us.findki.com/* # Visymo
+*://us.foblue.com/* # Visymo
+*://us.infoqo.com/* # Visymo
+*://us.ingosearch.com/* # Visymo
+*://www.izitosearch.com/* # Visymo
+*://www.izito.com/* # Visymo
+*://us.myfindly.com/* # Visymo
+*://us.oltly.com/* # Visymo
+*://us.prorateer.com/* # Visymo
+*://us.searchel.com/* # Visymo
+*://us.searchley.com/* # Visymo
+*://us.searchlobby.com/* # Visymo
+*://us.searchmixer.com/* # Visymo
+*://us.seekdept.com/* # Visymo
+*://us.seekley.com/* # Visymo
+*://us.seekweb.com/* # Visymo
+*://us.shopwebly.com/* # Visymo
+*://us.sprask.com/* # Visymo
+*://us.temposearch.com/* # Visymo
+*://us.top10quest.com/* # Visymo
+*://us.tralti.com/* # Visymo
+*://search.visymo.com/* # Visymo
+*://www.zapmeta.com/* # Visymo
+*://us.exaude.com/* # YOUniversal Next Limited
+*://www.24by7search.com/* # 24by7search
+*://scoff.com/* # AdsSquared
+*://welks.com/* # AdsSquared
+*://www.bloglines.com/* # Ask Media Group
+*://www.consumersearch.com/* # Ask Media Group
+*://www.faqtoids.com/* # Ask Media Group
+*://www.life123.com/* # Ask Media Group
+*://www.reference.com/* # Ask Media Group
+*://10faq.com/* # Atomic Technologies
+*://cartageous.com/* # Blender Networks
+*://www.quickpulse.com/* # CBS Interactive
+*://factswhizz.com/* # FactsWhizz
+*://www.sheermoment.com/* # Gin Kay Technology
+*://www.360topics.com/*
+*://autodeals.site/*
+*://advancesimple.com/*
+*://www.businessfocus.online/*
+*://buyautos.site/*
+*://everythingtoday.com/*
+*://expertmonks.com/*
+*://ezdiscounts.net/*
+*://www.focusedbiz.com/*
+*://glocalsearch.com/*
+*://www.ihealthself.com/*
+*://inforesults.net/*
+*://offersgarden.com/*
+*://topguides.net/* # Polestar
+*://www.inboxdollars.com/* # Prodege
+*://www.swagbucks.com/* # Prodege
+*://www.pch.com/* # Publishers Clearing House
+*://softy.org/* # Softy.org
+*://www.activebeat.com/* # System1
+*://www.dealpilot.com/* # System1
+*://healthnwell.com/* # System1
+*://legalboulevard.com/* # System1
+*://www.nation.com/* # System1
+*://walletgenius.com/* # System1
+*://www.zoo.com/* # System1
+*://www.gigapromo.com/* # Visymo
+*://www.anygator.com/* # YOUniversal Next Limited
+*://explore.findwith.me/* # YOUniversal Next Limited
+
+# Assorted Ask Media Group domains
 *://www.ask.com/*
 *://www.consumersearch.com/*
 *://www.smarter.com/*
@@ -102,20 +431,30 @@
 *://www.simpli.com/*
 *://www.questionsanswered.net/*
 *://www.faqtoids.com/*
-*://www.bloglines.com/*
-*://explore.bloglines.com/*
-*://bloglines.com/*
+*://*.bloglines.com/*
 *://answerroot.com/*
 *://www.mydeal.io/*
-*://www.govtsearches.com/*
+*://*.govtsearches.com/*
 *://seekinfofast.com/*
 *://alldaycomforts.com/*
-*://www.shop411.com/*
+*://*.shop411.com/*
+*://*.informationvine.com/*
+
+# Sites that published custom ROM tutorials for the J7 Star, a carrier phone without bootloader unlock
+*://tweakdroid.com/*
+*://www.getdroidtips.com/*
+*://joyofandroid.com/*
+*://www.rootingsteps.com/*
+*://rootmygalaxy.net/*
+*://devsjournal.com/*
+*://androidbiits.com/*
+*://bypassapk.com/*
+
+# TODO: categorize these
 *://malwaretips.com/*
 *://www.pcrisk.com/*
 *://howtoremove.guide/*
 *://www.myantispyware.com/*
-*://explore.informationvine.com/*
 *://cureyoursystem.com/*
 *://www.2-spyware.com/*
 *://sensorstechforum.com/*
@@ -127,7 +466,11 @@
 *://www.thewrap.com/*
 *://www.digitaltrends.com/*
 *://python.plainenglish.io/*
+
+# Azure Blob Storage
 *://*.windows.net/*
+
+# TODO: categorize these
 *://www.uscloud.com/*
 *://www.seikei-r.com/*
 *://www.tomsguide.com/*
@@ -184,19 +527,9 @@
 *://devdoc.net/*
 *://dogyears.io/*
 *://www.codersjungle.com/*
-*://blog.logrocket.com/*
 *://auralcrave.com/*
 *://techyoulike.com/*
 *://colorpalette.wiki/*
-*://tweakdroid.com/*
-*://www.getdroidtips.com/*
-*://joyofandroid.com/*
-*://www.rootingsteps.com/*
-*://rootmygalaxy.net/*
-*://devsjournal.com/*
-*://androidbiits.com/*
-*://bypassapk.com/*
-*://bnnbreaking.com/*
 *://interestingengineering.com/*
 *://insidetelecom.com/*
 *://wegotthiscovered.com/*
@@ -236,304 +569,12 @@
 *://www.wise-geek.com/*
 *://www.wisegeek.net/*
 *://www.wisetour.com/*
-*://10faq.com/*
-*://advancesimple.com/*
-*://all.properties/*
-*://alohafind.com/*
-*://appliances.land/*
-*://autodeals.site/*
-*://autos-411.com/*
-*://bargain-pda.com/*
-*://bestdailyarticle.com/*
-*://bestsearches.net/*
-*://blackfridaysearch.co/*
-*://buyautos.site/*
-*://cartageous.com/*
-*://cercaora.co/*
-*://cercaoraoggi.com/*
-*://commonsearches.net/*
-*://coolsearches.com/*
-*://creditapprove123.com/*
-*://cybermondaydeal.co/*
-*://everyrebate.online/*
-*://everythingtoday.com/*
-*://expertmonks.com/*
-*://expertsnow.com/*
-*://explore.findwith.me/*
-*://ezdiscounts.net/*
-*://ezsearcher.com/*
-*://factswhizz.com/*
-*://familybuyer.com/*
-*://frequentsearches.com/*
-*://furniture.fit/*
-*://gadgetfrenzy.online/*
-*://glocalsearch.com/*
-*://gosearches.net/*
-*://gosearchresults.com/*
-*://healthfrenzy.online/*
-*://healthinfodirect.com/*
-*://healthnwell.com/*
-*://hp.myway.com/*
-*://inforesults.net/*
-*://isearch.babylon.com/*
-*://isearch.start.fyi/*
-*://jetztsuchenheute.com/*
-*://kensaq.com/*
-*://laricerca.co/*
-*://legalboulevard.com/*
-*://monstercrawler.com/*
-*://mybestsearches.com/*
-*://mynewsearch.net/*
-*://mysearches.net/*
-*://noblesearch.net/*
-*://offersgarden.com/*
-*://popularsearches.net/*
-*://puretopics.com/*
-*://quisitio.com/*
-*://ranksearchesnow.com/*
-*://relatedsearches.net/*
-*://saveonanything.online/*
-*://saveonwayfair.online/*
-*://savesearchdeals.com/*
-*://scoff.com/*
-*://search-us.com/*
-*://search-valley.com/*
-*://search.sidewalk.com/*
-*://search.tris.com/*
-*://search.visymo.com/*
-*://search.zonealarm.com/*
-*://searchandstuff.com/*
-*://searchanything.info/*
-*://searchanything.online/*
-*://searchbetter.co/*
-*://searcheshut.com/*
-*://searcheverything.info/*
-*://searchfavorites.net/*
-*://searchfortoday.com/*
-*://searchlistnow.com/*
-*://searchlists.net/*
-*://searchthese.net/*
-*://searchthings.co/*
-*://searchthings.info/*
-*://searchtodaynow.com/*
-*://searchtopics.net/*
-*://serch.it/*
-*://shopanything.online/*
-*://shoppingeverything.online/*
-*://softy.org/*
-*://srchgo.com/*
-*://srchtul.com/*
-*://srczule.com/*
-*://startsearch.net/*
-*://theblackfridaydeal.com/*
-*://thefrenzy.online/*
-*://thesearchtoday.com/*
-*://thingsearches.com/*
-*://top.allresultsweb.com/*
-*://top.searchinfonow.com/*
-*://top.theresultsengine.com/*
-*://topguides.net/*
-*://topinfoarticles.com/*
-*://topsearchernow.com/*
-*://travelfrenzy.online/*
-*://updatedanswers.com/*
-*://us.askpace.com/*
-*://us.blendedsearch.com/*
-*://us.exaude.com/*
-*://us.favosearch.com/*
-*://us.findki.com/*
-*://us.foblue.com/*
-*://us.infoqo.com/*
-*://us.ingosearch.com/*
-*://us.myfindly.com/*
-*://us.oltly.com/*
-*://us.prorateer.com/*
-*://us.searchel.com/*
-*://us.searchley.com/*
-*://us.searchlobby.com/*
-*://us.searchmixer.com/*
-*://us.seekdept.com/*
-*://us.seekley.com/*
-*://us.seekweb.com/*
-*://us.shopwebly.com/*
-*://us.sprask.com/*
-*://us.temposearch.com/*
-*://us.top10quest.com/*
-*://us.tralti.com/*
-*://walletgenius.com/*
-*://welks.com/*
-*://wowsear.ch/*
-*://www.100searchengines.com/*
-*://www.247.vacations/*
-*://www.24by7search.com/*
-*://www.360topics.com/*
-*://www.activebeat.com/*
-*://www.alhea.net/*
-*://www.allinfosearch.com/*
-*://www.allsearchsite.com/*
-*://www.allshoppinghub.com/*
-*://www.alltheinternet.com/*
-*://www.answergal.com/*
-*://www.answerroot.com/*
-*://www.answersite.com/*
-*://www.anygator.com/*
-*://www.askfalcon.com/*
-*://www.autos.parts/*
-*://www.autos24-7.com/*
-*://www.baby.guide/*
-*://www.bestresultstoday.com/*
-*://www.binoz.com/*
-*://www.boxely.com/*
-*://www.browsinginfo.com/*
-*://www.businessfocus.online/*
-*://www.buydirect.com/*
-*://www.buyernet.com/*
-*://www.candofinance.com/*
-*://www.chaseafterinfo.com/*
-*://www.chowist.com/*
-*://www.citypedia.com/*
-*://www.couponbear.com/*
-*://www.crypsearch.com/*
-*://www.csearches.net/*
-*://www.dailydozen.com/*
-*://www.dealpilot.com/*
-*://www.dealsnow.com/*
-*://www.digupinfo.com/*
-*://www.directhit.com/*
-*://www.diylife.com/*
-*://www.ehealth247.com/*
-*://www.enow.com/*
-*://www.eshopdaily.com/*
-*://www.etour.com/*
-*://www.ezbuying.com/*
-*://www.fashion.life/*
-*://www.fastquicksearch.com/*
-*://www.favoritesearches.com/*
-*://www.find.furniture/*
-*://www.findarticles.com/*
-*://www.findinfoonline.com/*
-*://www.findinfoquickly.com/*
-*://www.findsmartresults.com/*
-*://www.finecomb.com/*
-*://www.foodbegood.com/*
-*://www.furniture.deals/*
-*://www.gamer.site/*
-*://www.getsearchinfo.com/*
-*://www.gigapromo.com/*
-*://www.glamorbank.com/*
-*://www.going.com/*
-*://www.greendaily.com/*
-*://www.health.zone/*
-*://www.help.website/*
-*://www.helpful.tips/*
-*://www.helping.com/*
-*://www.helpwire.com/*
-*://www.hidemyhistory.co/*
-*://www.holidaygiftssearch.com/*
-*://www.homesessive.com/*
-*://www.housingwatch.com/*
-*://www.hysearches.com/*
-*://www.ihealthself.com/*
-*://www.inboxdollars.com/*
-*://www.informationvine.com/*
-*://www.instore.com/*
-*://www.insurance24-7.com/*
-*://www.internetbuyer.com/*
-*://www.internetcorkboard.com/*
-*://www.internetlist.com/*
-*://www.intoautos.com/*
-*://www.iresults.com/*
-*://www.izito.com/*
-*://www.izitosearch.com/*
-*://www.javabuyer.com/*
-*://www.job-sift.com/*
-*://www.keywordssearching.com/*
-*://www.know-legal.com/*
-*://www.kol.com/*
-*://www.leadlocal.com/*
-*://www.learn-247.com/*
-*://www.luxist.com/*
-*://www.myprivatesearch.com/*
-*://www.mysearchexperts.com/*
-*://www.mysimon.com/*
-*://www.mywebsearch.co/*
-*://www.nation.com/*
-*://www.netdeals.com/*
-*://www.netfind.com/*
-*://www.ohdeal.com/*
-*://www.pch.com/*
-*://www.pets.world/*
-*://www.productopia.com/*
-*://www.pronto.com/*
-*://www.qsearch.io/*
-*://www.quickholidayshopping.com/*
-*://www.quicklyseek.com/*
-*://www.quickpulse.com/*
-*://www.resultsdistributor.com/*
-*://www.rsearches.net/*
-*://www.search.com/*
-*://www.searchalot.com/*
-*://www.searchandshopping.org/*
-*://www.searchcommons.com/*
-*://www.searchlock.com/*
-*://www.searchresultsdelivery.com/*
-*://www.searchresultsfast.com/*
-*://www.searchstartnow.com/*
-*://www.searchthatup.com/*
-*://www.see-it.live/*
-*://www.seekify.net/*
-*://www.sheermoment.com/*
-*://www.shopfone.com/*
-*://www.shopping.net/*
-*://www.smartanswersonline.com/*
-*://www.smartshoppingresults.com/*
-*://www.sohobuyer.com/*
-*://www.speedysearchresults.com/*
-*://www.sport-king.com/*
-*://www.store.com/*
-*://www.stumbleuponresults.com/*
-*://www.superdealsearch.com/*
-*://www.swagbucks.com/*
-*://www.tech247.co/*
-*://www.teoma.us/*
-*://www.theanswerhub.com/*
-*://www.theepulse.com/*
-*://www.thegifts.co/*
-*://www.thesearchmonster.com/*
-*://www.theweb.com/*
-*://www.thewinlist.com/*
-*://www.think24-7.com/*
-*://www.topsearch.co/*
-*://www.topwebanswers.com/*
-*://www.travelsearchexpert.com/*
-*://www.truesearches.net/*
-*://www.viral.site/*
-*://www.walletpop.com/*
-*://www.wavezie.com/*
-*://www.web-explore.com/*
-*://www.websearch101.com/*
-*://www.when.com/*
-*://www.wimzi.com/*
-*://www.wow.com/*
-*://www.ygm.com/*
-*://www.zapmeta.com/*
-*://www.zoo.com/*
-*://yfind.io/*
-*://yoursearchtoday.com/*
-*://ysearches.com/*
-*://zipcode-weather.com/*
-*://searchguide.level3.com/*
-*://trendysearches.com/*
-*://www.contenko.com/*
-*://www.discover-results.com/*
-*://www.focusedbiz.com/*
-*://www.myprivacyswitch.com/*
-*://www.rapidrelevant.com/*
-*://www.savvysearch.com/*
-*://www.search-topresults.com/*
-*://www.videoroom.com/*
+
+# Sponsored articles
 *://www.usnews.com/brandfuse/*
 *://www.trustedreviews.com/advertorial/*
+
+# TODO: categorize these
 *://traitcrafters.com/*
 *://insightvity.com/*
 *://fuelflowpro.com/*
@@ -567,6 +608,8 @@
 *://enrouteindianhistory.com/*
 *://wildlyanimals.com/*
 *://chatgptjob.info/*
+
+# Assorted websites with "As of my knowledge cutoff" discovered Feb 18 2024
 *://www.stilt.com/*
 *://www.mooncareers.com/*
 *://www.facebook.com/StudyGurusAustralia/*
@@ -596,6 +639,8 @@
 *://medium.com/@antonschmlourow/*
 *://medium.com/@sustanam/*
 *://medium.com/@vedashri.sonar/*
+
+# TODO: categorize these
 *://medium.com/@cilacappost/*
 *://medium.com/@rishatoro/*
 *://medium.com/@afterhourscoding/*
@@ -613,7 +658,11 @@
 *://streamlabs.com/content-hub/*
 *://alreadyviral.me/*
 *://www.backblaze.com/blog/*
+
+# Arc Search "Browse for Me" pages can be shared and then indexed
 *://search.arc.net/*
+
+# TODO: categorize these
 *://www.amckinnon.com.au/*
 *://medium.com/@technomild1/*
 *://www.lolaapp.com/*
@@ -634,6 +683,8 @@
 *://www.youlistener.com/*
 *://www.33rdsquare.com/*
 *://oldtimemusic.com/*
+
+# Got spammed in my feedback form
 *://pintarku.app/*
 *://xywcloud.icu/*
 *://xomzgfev1245.app/*
@@ -665,3 +716,30 @@
 *://wan367.com/*
 *://viajaconfbondi.com/*
 *://testwwqq.com/*
+
+*://tecnobits.com/*
+*://gamertweak.com/*
+*://www.highsocial.com/*
+*://www.sportskeeda.com/*
+
+# TrimFeed & BNN Breaking have AI-generated articles
+*://tr.im/*
+*://bnnbreaking.com/*
+
+*://cursefire.com/* # Strange CurseForge proxy
+
+*://www.businessofapps.com/*
+*://backlinko.com/*
+
+*://labs.openai.com/s/* # DALL-E 2 generations
+
+# https://medium.com/@ahmed2madhoun2/unlocking-cross-platform-brilliance-a-guide-to-compose-multiplatform-projects-95c2186b9552 appears to be AI-generated
+*://medium.com/@ahmed2madhoun2/*
+# https://headtopics.com/us/oops-trump-and-x-did-a-copyright-infringement-56127812 is copied from the verge
+*://headtopics.com/*
+
+# Impersonation of neal.fun, spam posts that embed browser games
+*://nealfun.co/*
+*://nealfun.link/* # Redirects to the former
+
+*://www.aiswers.com/topic/* # Chatbot that indexes conversations https://news.ycombinator.com/item?id=41173585
