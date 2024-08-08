@@ -743,3 +743,5 @@
 *://nealfun.link/* # Redirects to the former
 
 *://www.aiswers.com/topic/* # Chatbot that indexes conversations https://news.ycombinator.com/item?id=41173585
+# https://medium.com/@umer52980/unlock-the-secrets-mastering-mr-beasts-video-editing-techniques-for-epic-content-creation-94e3b4f5fe82 appears to be AI-generated and exists to spam a Fiverr link
+*://medium.com/@umer52980/*
