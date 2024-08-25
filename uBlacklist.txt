@@ -661,6 +661,7 @@
 
 # Arc Search "Browse for Me" pages can be shared and then indexed
 *://search.arc.net/*
+*://www.aiswers.com/topic/* # Same kind of story, https://news.ycombinator.com/item?id=41173585
 
 # TODO: categorize these
 *://www.amckinnon.com.au/*
@@ -742,6 +743,12 @@
 *://nealfun.co/*
 *://nealfun.link/* # Redirects to the former
 
-*://www.aiswers.com/topic/* # Chatbot that indexes conversations https://news.ycombinator.com/item?id=41173585
-# https://medium.com/@umer52980/unlock-the-secrets-mastering-mr-beasts-video-editing-techniques-for-epic-content-creation-94e3b4f5fe82 appears to be AI-generated and exists to spam a Fiverr link
+# https://medium.com/@umer52980/unlock-the-secrets-mastering-mr-beasts-video-editing-techniques-for-epic-content-creation-94e3b4f5fe82 spam posts
 *://medium.com/@umer52980/*
+# click fraud network: https://cety.app/urls will put you in an infinite link shortener loop and its spammed all over bugmenot. premiumaccount.online also redirects to it
+# cety.app itself is just spam articles so of course i'm blocking it
+*://cety.app/*
+*://premiumaccount.online/*
+
+# https://traktrain.com/blog/when-is-the-best-time-to-release-your-track/ feels ai generated
+*://traktrain.com/blog/*
