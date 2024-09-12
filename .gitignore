@@ -143,12 +143,7 @@ dist
 # Serverless directories
 
 .serverless/
-
-# FuseBox cache
-
-.fusebox/
-
-# DynamoDB Local files
+# in general  up
 
 .dynamodb/
 
@@ -173,3 +168,6 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Nix build artifacts
+result*
