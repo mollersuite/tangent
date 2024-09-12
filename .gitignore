@@ -171,3 +171,6 @@ dist
 
 # Nix build artifacts
 result*
+
+# direnv artifacts
+.direnv/
