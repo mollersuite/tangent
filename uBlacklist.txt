@@ -661,7 +661,7 @@
 
 # Arc Search "Browse for Me" pages can be shared and then indexed
 *://search.arc.net/*
-*://www.aiswers.com/topic/* # Same kind of story, https://news.ycombinator.com/item?id=41173585
+*://www.aiswers.com/topic/* # Chatbot that indexes conversations https://news.ycombinator.com/item?id=41173585
 
 # TODO: categorize these
 *://www.amckinnon.com.au/*
@@ -752,3 +752,32 @@
 
 # https://traktrain.com/blog/when-is-the-best-time-to-release-your-track/ feels ai generated
 *://traktrain.com/blog/*
+# https://beatcrave.com/w3/the-meaning-behind-the-song-trenches-by-playboi-carti/ ai generated
+*://beatcrave.com/*
+# Spam https://hss.ge/xyyzry8/roblox-script-showcase
+*://hss.ge/*
+
+# GiganticWebsites.com spam sites
+*://dn.org/*
+*://investing.co/*
+*://coffeeblog.co/*
+*://beads.co/*
+*://cryptocurrency.law/*
+*://honest.pa/*
+*://premiumev.com/*
+*://markmappr.com/*
+*://tmtactics.com/*
+*://logolegals.com/*
+*://globaltmwiki.com/*
+*://trademarkmentor.com/*
+*://dogkora.com/*
+*://imakemoneyonline.com/*
+
+# AI generated articles about their competitors
+*://blog.unrealspeech.com/*
+
+# At least AI generated headings and title on https://www.stayfreeradioip.com/post/future-plutoski-meaning-and-review
+*://www.stayfreeradioip.com/post/*
+
+# keyword spam + copies github issues
+*://logantransport.com/*
