@@ -44,7 +44,7 @@
 # TODO: categorize these
 *://statcarewalkin.com/*
 *://medicalhealthauthority.com/*
-*://www.emergentmind.com/*
+*://www.emergentmind.com/papers/* # AI generated summaries of papers
 *://www.maketecheasier.com/*
 *://www.action1.com/*
 *://www.lifewire.com/*
@@ -777,3 +777,9 @@
 
 # keyword spam + copies github issues
 *://logantransport.com/*
+# See https://gamerswiki.net/what-is-the-vanilla-cape/, lots of random unrelated sections, useless
+*://gamerswiki.net/*
+# Strange site dedicated to advertising backlinks
+*://global-rank.pages.dev/*
+# AI generated: https://medium.com/aardvark-infinity/ai-generated-writing-on-medium-c1c77b54da03
+*://medium.com/aardvark-infinity/*
