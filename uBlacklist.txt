@@ -15,12 +15,6 @@
 *://www.runoob.com/*
 *://www.javatpoint.com/*
 *://www.tutorialspoint.com/*
-*://www.fooish.com/* # Probably useful but not in my language
-
-# MDN alternate languages
-*://developer.mozilla.org/zh-CN/*
-*://developer.mozilla.org/ko/*
-*://developer.mozilla.org/pt-BR/*
 
 # Never helpful spam blog posts
 *://www.digitalocean.com/community/*
