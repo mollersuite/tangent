@@ -1,9 +1,18 @@
 {
-	"private": true,
+	"scripts": {
+		"build": "rollup src/main.js -c rollup.config.js",
+		"start": "npm run build && gjs -m dist/bundle.js"
+	},
+	"type": "module",
 	"devDependencies": {
-		"@girs/adw-1": "1.4.3-3.2.9",
-		"@girs/gjs": "^3.2.3",
-		"@girs/gtk-4.0": "4.10.5-3.2.3",
-		"@girs/webkit-6.0": "2.41.90-3.2.9"
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"rollup": "^4.21.0",
+		"rollup-plugin-svelte": "^7.2.2",
+		"svelte": "^4.2.19"
+	},
+	"dependencies": {
+		"@girs/adw-1": "^1.6.0-4.0.0-beta.16",
+		"@girs/gtk-4.0": "^4.15.5-4.0.0-beta.16",
+		"@girs/webkit-6.0": "^2.46.0-4.0.0-beta.16"
 	}
 }

@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=surf.tangent.Tangent
-Exec=@bindir@/surf.tangent.Tangent --gapplication-service
